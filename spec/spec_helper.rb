@@ -20,7 +20,9 @@ end
 
 
 def square_array(numbers)
+new_arr = []
   numbers.each do |num|
-    num**2
+    new_arr << num**2
   end
+  return new_arr
 end

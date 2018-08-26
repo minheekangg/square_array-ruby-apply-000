@@ -17,3 +17,10 @@ RSpec.configure do |config|
   #     --seed 1234
   # config.order = 'random'
 end
+
+
+def square_array(numbers)
+  numbers.each do |num|
+    num**2
+  end
+end
